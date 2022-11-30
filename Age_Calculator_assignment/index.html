@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="out">
+        <div class="main">
+            <h2>Age Calculator</h2>
+            <form onsubmit="event.preventDefault()">
+                <label class="label" for="date">Date  </label>
+                <label class="label" for="month">Month  </label>
+                <label class="label" for="year">Year  </label>
+                            <br>
+                <input type="number" min="1" max="31" name="date" id="date" />
+                <input type="number" min="1" max="12" name="month" id="month" />
+                <input type="number" min="1000" max="9999" name="year" id="year" />   
+
+             <!-- <input type="submit" value="Submit" onclick="(ageCalculator)"> -->
+                 
+                 <input id="submit"  style="margin-left : 45%" type="submit" onclick={ageCalculator()}></input>
+
+            </form>
+            <h3 style="color : black " id="result" > </h3>
+            <!-- <div id="result"> -->
+                <!-- <button type="" onclick=(ageCalculator)></button> -->
+            <!-- </div> -->
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

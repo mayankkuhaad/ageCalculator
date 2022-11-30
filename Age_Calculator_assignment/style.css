@@ -1,0 +1,19 @@
+
+.main{
+
+ border: 1px solid black;
+ width : 700px;
+ text-align: center;
+background-color: white;
+}
+
+.label{
+color : black;
+margin: 15px;
+
+}
+#submit {
+    display: block;
+    margin-top: 10px;
+
+}
